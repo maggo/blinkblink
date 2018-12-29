@@ -2,6 +2,8 @@
 
 Convert GIFs and strings to [Blinkenrocket](http://blinkenrocket.de) animations with this handy CLI tool!!11
 
+During execution the tool emits some very obnoxious modem-like sounds to program the rocket. Please make sure that you've connected your Blinkenrocket securely and the audio jack is set as your output device. The volume needs to be VERY high (110%!!1)
+
 ## Install
 
 ```
@@ -42,3 +44,11 @@ Options:
 Examples:
   index.js --0.speed=12 --1.repeat=1 "foo" foo.gif "bar" "baz"
 ```
+
+## How do the gifs look like?
+
+Just 8x8 gifs with either black (#000000) or 0 alpha background. Then just draw with any color you like. Add frames as you please!
+
+## Debian/Ubuntu not working?
+
+Seems like node-speaker needs some additional setup there. [See their repository](https://github.com/TooTallNate/node-speaker)
