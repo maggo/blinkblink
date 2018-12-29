@@ -2,6 +2,8 @@
 
 Convert GIFs and strings to [Blinkenrocket](http://blinkenrocket.de) animations with this handy CLI tool!!11
 
+### WARNING
+
 During execution the tool emits some very obnoxious modem-like sounds to program the rocket. Please make sure that you've connected your Blinkenrocket securely and the audio jack is set as your output device. The volume needs to be VERY high (110%!!1)
 
 ## Install
@@ -47,7 +49,7 @@ Examples:
 
 ## How do the gifs look like?
 
-Just 8x8 gifs with either black (#000000) or 0 alpha background. Then just draw with any color you like. Add frames as you please!
+Just 8x8 gifs with either black (#000000) or 0 alpha background. Then just draw with any color you like. Add frames as you please! See foo.gif for an example.
 
 ## Debian/Ubuntu not working?
 
