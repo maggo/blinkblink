@@ -1,5 +1,5 @@
 {
-  "name": "blinkblink",
+  "name": "@maggo/blinkblink",
   "version": "0.0.1",
   "description": "Program GIFs to your BlinkenRocket",
   "main": "index.js",
