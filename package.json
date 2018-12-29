@@ -1,6 +1,6 @@
 {
   "name": "@maggo/blinkblink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Program GIFs to your BlinkenRocket",
   "main": "index.js",
   "license": "MIT",
