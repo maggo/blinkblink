@@ -17,7 +17,7 @@ $ yarn global add @maggo/blinkblink
 ## --help
 
 ```
-Usage: index.js [file|message..]}
+Usage: blinkblink [file|message..]}
 Pass an array of either .gif files or strings and set their properties with
 --[index].[speed|delay|repeat|direction]
 
@@ -44,7 +44,7 @@ Options:
   -v, --version      Show version number                               [boolean]
 
 Examples:
-  index.js --0.speed=12 --1.repeat=1 "foo" foo.gif "bar" "baz"
+  blinkblink --0.speed=12 --1.repeat=1 "foo" foo.gif "bar" "baz"
 ```
 
 ## How do the gifs look like?
