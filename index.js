@@ -11,7 +11,8 @@ const argv = require("yargs")
     "Transform your animated GIFs and strings into Blinkenrocket animations!!!1\n\n" +
       "Usage: $0 [file|message..]} \n" +
       "Pass an array of either .gif files or strings and set their properties with --[index].[speed|delay|repeat|direction]\n\n" +
-      "GIFs must be 8x8 pixels, true black (#000000) or 0 alpha means OFF, everything else ON. Maximum recommended framecount: 255\n"
+      "GIFs must be 8x8 pixels, true black (#000000) or 0 alpha means OFF, everything else ON. Maximum recommended framecount: 255\n\n" +
+      "!!!!!PLEASE make sure that you have your Blinkenrocket safely connected to the audio jack and your output is set correctly. The volume has to be VERY loud and could blow away your eardrums (and everyone elses) if you play it on speakers!!!!!!1"
   )
   .example(`$0 --0.speed=12 --1.repeat=1 "foo" foo.gif "bar" "baz"`)
   .describe("clear", "Clear the Blinkenrocket storage")
